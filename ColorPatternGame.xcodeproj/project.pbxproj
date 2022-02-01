@@ -13,6 +13,7 @@
 		333AD16027A95889002B5887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AD15E27A95889002B5887 /* Main.storyboard */; };
 		333AD16227A9588A002B5887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333AD16127A9588A002B5887 /* Assets.xcassets */; };
 		333AD16527A9588A002B5887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AD16327A9588A002B5887 /* LaunchScreen.storyboard */; };
+		333AD16D27A96368002B5887 /* MyUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333AD16C27A96368002B5887 /* MyUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		333AD16127A9588A002B5887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333AD16427A9588A002B5887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333AD16627A9588A002B5887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333AD16C27A96368002B5887 /* MyUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				333AD15827A95889002B5887 /* AppDelegate.swift */,
 				333AD15A27A95889002B5887 /* SceneDelegate.swift */,
 				333AD15C27A95889002B5887 /* ViewController.swift */,
+				333AD16C27A96368002B5887 /* MyUIButton.swift */,
 				333AD15E27A95889002B5887 /* Main.storyboard */,
 				333AD16127A9588A002B5887 /* Assets.xcassets */,
 				333AD16327A9588A002B5887 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				333AD15D27A95889002B5887 /* ViewController.swift in Sources */,
 				333AD15927A95889002B5887 /* AppDelegate.swift in Sources */,
 				333AD15B27A95889002B5887 /* SceneDelegate.swift in Sources */,
+				333AD16D27A96368002B5887 /* MyUIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
